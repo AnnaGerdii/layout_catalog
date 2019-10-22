@@ -23,91 +23,77 @@
           align-items: center;
   padding: 30px 14px 14px;
   margin-bottom: 51px; }
-
-.product__photo {
-  width: 160px;
-  height: 134px;
-  margin-bottom: 45px; }
-
-.product__name {
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 15px; }
-
-.product__code {
-  margin-top: 5px; }
-
-.product__price,
-.product__reviews {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 16px; }
-
-.product__reviews {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start; }
-
-.review__stars {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 91px;
-  padding: 1px 0 0 1px; }
-
-.review__star {
-  height: 15px;
-  width: 15px; }
-
-.review__star_checked {
-  background: url("../images/star-active.svg") no-repeat; }
-
-.review__star_empty {
-  background: url("../images/star.svg") no-repeat; }
-
-.product__price {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  margin-top: 18px; }
-
-.product__price__number {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 19px; }
-
-.product__buy {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-  background: #00acdc;
-  border-radius: 5px;
-  height: 40px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  color: #f3f3f3; }
-
-.product__buy:hover {
-  background-color: white;
-  border: 1px solid #00acdc;
-  color: #00acdc; }
+  .product__photo {
+    width: 160px;
+    height: 134px;
+    margin-bottom: 45px; }
+  .product__name {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px; }
+  .product__code {
+    margin-top: 5px; }
+  .product__price, .product__review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 16px; }
+  .product__review {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .product__review__stars {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 91px;
+      padding: 1px 0 0 1px; }
+      .product__review__stars__item {
+        height: 15px;
+        width: 15px; }
+        .product__review__stars__item_checked {
+          background: url("../images/star-active.svg") no-repeat; }
+        .product__review__stars__item_empty {
+          background: url("../images/star.svg") no-repeat; }
+  .product__price {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-top: 18px; }
+    .product__price__number {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px; }
+  .product__buy {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    background: #00acdc;
+    border-radius: 5px;
+    height: 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    color: #f3f3f3; }
+    .product__buy:hover {
+      background-color: white;
+      border: 1px solid #00acdc;
+      color: #00acdc; }
 
 /*# sourceMappingURL=product.css.map */
