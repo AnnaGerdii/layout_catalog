@@ -90,6 +90,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     text-decoration: none;
+    text-transform: uppercase;
     color: #f3f3f3; }
     .product__buy:hover {
       background-color: white;
