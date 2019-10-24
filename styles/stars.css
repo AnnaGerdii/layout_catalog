@@ -1,0 +1,25 @@
+.stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 91px;
+  padding: 1px; }
+  .stars__item {
+    height: 15px;
+    width: 15px;
+    background: url("../images/star-active.svg") no-repeat; }
+  .stars_1 .stars__item:nth-child(1) ~ .stars__item {
+    background: url("../images/star.svg") no-repeat; }
+  .stars_2 .stars__item:nth-child(2) ~ .stars__item {
+    background: url("../images/star.svg") no-repeat; }
+  .stars_3 .stars__item:nth-child(3) ~ .stars__item {
+    background: url("../images/star.svg") no-repeat; }
+  .stars_4 .stars__item:nth-child(4) ~ .stars__item {
+    background: url("../images/star.svg") no-repeat; }
+  .stars_5 .stars__item:nth-child(5) ~ .stars__item {
+    background: url("../images/star.svg") no-repeat; }
+
+/*# sourceMappingURL=stars.css.map */
