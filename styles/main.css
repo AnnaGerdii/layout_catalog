@@ -63,15 +63,12 @@ body {
   margin: 0; }
 
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 944px;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 944px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: 10px auto;
   padding: 40px; }
 
