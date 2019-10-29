@@ -63,17 +63,16 @@ body {
   margin: 0; }
 
 .main {
-  width: 944px;
   display: grid;
   grid-template-columns: repeat(4, 200px);
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 10px auto;
-  padding: 40px; }
-
-.main__product {
-  margin-bottom: 51px; }
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px;
+  row-gap: 51px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px; }
 
 .product {
   border: 1px solid #f3f3f3;
